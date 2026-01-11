@@ -56,13 +56,6 @@ DEMO: https://uwlar-snake-ai.vercel.app/
 *   **On-Screen D-Pad**: For mobile/touch control.
 *   **Watch AI Play**: Sit back and learn from the master!
 
-## 🧠 AI Strategy
-
-The AI isn't just a simple pathfinder. It "thinks" before it moves:
-1.  **Pathfinding**: Uses BFS to find the shortest path to food.
-2.  **Safety Simulation**: "If I eat the food, can I still reach my tail?" If not, it aborts.
-3.  **Survival Mode**: If no safe path to food exists, it follows its own tail to stall and wait for an opening.
-4.  **Open Space Confidence**: If 90% of the board is open, it takes calculated risks to play aggressively.
 
 ---
 
