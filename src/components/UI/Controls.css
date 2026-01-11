@@ -1,0 +1,108 @@
+.virtual-controls {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.dpad-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    align-items: center;
+}
+
+.dpad-middle {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+}
+
+.dpad-btn {
+    width: 70px;
+    height: 70px;
+    background: rgba(138, 43, 226, 0.3);
+    border: 2px solid rgba(138, 43, 226, 0.6);
+    border-radius: 12px;
+    color: #8a2be2;
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.15s ease;
+    touch-action: none;
+    /* Critical for instant touch response */
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    backdrop-filter: blur(10px);
+    font-weight: bold;
+}
+
+.dpad-btn:hover {
+    background: rgba(138, 43, 226, 0.5);
+    border-color: rgba(138, 43, 226, 0.8);
+    transform: scale(1.05);
+}
+
+.dpad-btn:active {
+    background: rgba(138, 43, 226, 0.7);
+    transform: scale(0.95);
+    border-color: #8a2be2;
+    color: white;
+}
+
+.dpad-center {
+    width: 70px;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .virtual-controls {
+        max-width: min(90vw, 500px);
+    }
+
+    .dpad-btn {
+        width: 65px;
+        height: 65px;
+        font-size: 1.6rem;
+    }
+
+    .dpad-center {
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media (max-width: 480px) {
+    .virtual-controls {
+        max-width: 100%;
+        padding: 0.25rem 0;
+    }
+
+    .dpad-btn {
+        width: 50px;
+        height: 50px;
+        font-size: 1.3rem;
+        border-radius: 8px;
+    }
+
+    .dpad-center {
+        width: 50px;
+        height: 50px;
+    }
+
+    .dpad-container {
+        gap: 0.25rem;
+    }
+
+    .dpad-middle {
+        gap: 0.25rem;
+    }
+}
