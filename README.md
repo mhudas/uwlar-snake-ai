@@ -2,6 +2,8 @@
 
 **uWlar** is a modern, high-performance Snake game built with **React** and **Vite**. It features a stunning neon aesthetic, responsive controls, and a **Grandmaster-level AI** capable of playing the game perfectly.
 
+DEMO: https://uwlar-snake-ai.vercel.app/
+
 <p align="center">
   <img src="screenshots/menu.png" width="30%" alt="Menu Screen"/>
   <img src="screenshots/screenshot.png" width="30%" alt="Gameplay Action"/>
