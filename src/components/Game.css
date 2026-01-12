@@ -1,6 +1,6 @@
 .game-container {
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,4 +72,5 @@ canvas {
         max-width: 350px;
         max-height: 350px;
     }
+
 }
