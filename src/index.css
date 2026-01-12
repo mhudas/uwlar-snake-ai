@@ -22,7 +22,7 @@ body {
   overflow: hidden;
   /* Prevent scrolling */
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
