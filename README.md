@@ -31,7 +31,7 @@ DEMO: https://uwlar-snake-ai.vercel.app/
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/uwlar-snake-ai.git
+    git clone https://github.com/mhudas/uwlar-snake-ai.git
     cd uwlar-snake-ai
     ```
 
